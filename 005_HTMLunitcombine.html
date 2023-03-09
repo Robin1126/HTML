@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML中单元格的合并</title>
+	</head>
+	<body>
+	<center><h1>单元格的合并</h1>
+	<hr width=80%>
+	<!--创建3*3的表格-->
+	<!--合并表格 
+	行合并：一般找到对应的格子，删掉其中一个，一般是删除下面的，然后使用rowspan=“行数”来合并
+	列合并：colspan="2"	,也是删除其中一个，删除哪个没有要求，使用colspan="列数"进行合并		-->
+		<table border="1px" align="center" width="75%" height="250px">
+			<tr>
+			<!--
+				<td>eno</td>
+				<td>ename</td>
+				<td>sal</td> 
+			-->
+			<!--td改成th	自动居中并且自动加粗 一般表格第一行都是用th -->
+				<th>eno</th>
+				<th>ename</th>
+				<th>sal</th> 
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>5</td>
+				<td rowspan="2">6 and 9</td>
+			</tr>
+			<tr>
+				<td colspan="2">78</td>
+				
+				
+			</tr>
+		</table>
+	<body>
+</html>

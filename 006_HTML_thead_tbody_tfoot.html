@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>thead,tbody,tfoot</title>
+	</head>
+	<body>
+		<table border="1px" align="center" width="75%" height="250px">
+		<!--将表格切分为三部分以后，后期使用js语句好操作一些-->
+			<thead>
+				<tr>
+			<!--
+				<td>eno</td>
+				<td>ename</td>
+				<td>sal</td> 
+			-->
+			<!--td改成th	自动居中并且自动加粗 一般表格第一行都是用th -->
+					<th>eno</th>
+					<th>ename</th>
+					<th>sal</th> 
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td rowspan="2">6 and 9</td>
+				</tr>
+				<!--注意！这里切开了以后合并合不上了-->
+				<tr>
+					<td colspan="2">78</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+
+</html>

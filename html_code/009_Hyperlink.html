@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>超链接</title>
+	</head>
+	<!--
+		Hyperlink的特点
+			1. 鼠标悬停变成小手
+			2. 关键字有下划线
+			3. 点击会跳转页面（发送请求）
+		
+		href=hot reference
+			href后面的可以是绝对路径，也可以是相对路径。
+	-->
+	<body>
+		<a href="http://www.google.com">谷歌</a> <br>
+		<a href="http://www.baidu.com">百度</a> <br>
+		<a href="https://github.com/Robin1126">Github主页</a> <br>
+		<a href="007_background.html">background from WoLong</a>
+		<!-- 图片也可以做成超链接 -->
+		<a href="https://teamninja-studio.com/wolong/sch/">
+			<img src="img/wolong.png" width ="500px" />
+		</a>
+		<!-- 在浏览器上面的F12可以在本地调试网页元素 -->
+		<a href="https://teamninja-studio.com/wolong/sch/" target="_blank">
+			<img src="img/wolong.png" width ="500px" />
+		</a>
+		<!-- target 属性可以定义超链接打开时候的方式 
+			_blank开启新窗口
+			_self 当前窗口
+			_top 顶级窗口
+			_parent 父窗口 
+			后两个只能用在嵌套窗口上面
+		-->
+	</body>
+</html>
+<!--
+	超链接的作用：
+		通过超链接可以从浏览器向服务器发送请求
+		浏览器向服务器发送数据 请求：request
+		服务器向浏览器发送数据 响应：response
+			
+		B/S结构的系统，每一个请求都会对应一个相应。
+		B --请求-- S
+		S --相应-- B
+		
+		用户点击href和浏览器上直接输入地址，本质上没有区别
+		从操作上来讲，超链接使用更加方便
+		
+			-->
