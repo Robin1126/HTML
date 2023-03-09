@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户注册表单</title>
+	</head>
+	<body>
+			<!--
+				用户注册：
+					用户名
+					姓名
+					密码
+					确认密码
+					性别
+					兴趣爱好
+					学历
+					简介		
+			-->
+		<form action="http://localhost:8080/jd/register">
+			用户名
+			<input type="text" name="username" /> <br>
+			密码
+			<input type="password" name="userpwd" /> <br>
+			确认密码 <!--JavaScript就能判断密码一样不一样，不需要提交-->
+			<input type="password"/>
+			<br>
+			性别<!--name如果一样，就可以限制选一个 checked表示默认选中 -->
+			<input type="radio" value="1" name="gender" checked /> 男
+			<input type="radio" value="0" name="gender" /> 女
+			<br>
+			兴趣爱好
+			<br>
+			<input type="checkbox" name="interest" value="sing">唱
+			<br>
+			<input type="checkbox" name="interest" value="dance">跳
+			<br>
+			<input type="checkbox" name="interest" value="rap">rap
+			<br>
+			<input type="checkbox" name="interest" value="basketball">篮球
+			<br>
+			学历 <!--做一个下拉框架，使用select标签, option表示分项， 默认选中需要填写selected-->
+			<select name="grade">
+				<option value="gz">高中</option>
+				<option value="dz">大专</option>
+				<option value="bk" selected>本科</option>
+				<option value="ss">研究生</option>
+				<option value="bs">博士</option>
+			</select>
+			<br>
+			简历 <!--文本域 textarea 这个没有value属性，用户填写就是value rows和cols可以定义行，列-->
+			<textarea rows="10" cols="60" name="introduce"></textarea>
+			<br>
+			<input type="submit" value="提交" />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="reset" value="重置" />
+		</form>	
+	</body>
+</html>

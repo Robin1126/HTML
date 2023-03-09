@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>File控件</title>
+	</head>
+	<body>
+		<!--上传文件使用的专用-->
+		<input type="file" />
+		
+		<form action="http://localhost:8080/oa/save" method="post">
+			<!--隐藏域 hidden，表单上看不到，但是实际上表单提交数据的时候，也会将这部分提交到服务器，如果name有的话-->
+			<input type="hidden" name="userid" value="111" />
+			
+			用户代码<input type="text" name="usercode" />
+			
+			<input type="submit" value="submit" />
+		</form>
+	</body>
+</html>
