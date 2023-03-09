@@ -1,70 +1,70 @@
 HTML
 
-1. ϵͳ�ṹ��
-	B/S�ܹ���Browser/Server �������/�������Ľ�����ʽ��
+1. 系统结构：
+	B/S架构：Browser/Server （浏览器/服务器的交互形式）
 
-	Browser֧����Щ���ԣ�HTML CSS JavaScrpt
+	Browser支持哪些语言：HTML CSS JavaScrpt
 
-	дHTML CSS JavaScript������˽���WEBǰ�˿�������ʦ
-	ǰ���ϵ�ͼƬ��ҪUI���ʦ��ɣ�PS��java����Ա��˵û��̫�ߵ�Ҫ��
-	s�Ƿ�������Server,Server�˵����Ժࣺܶc��c++��java python�� ������Ҫ��ʹ��java������ɷ������˵Ŀ���
+	写HTML CSS JavaScript代码的人叫做WEB前端开发工程师
+	前端上的图片需要UI设计师完成（PS对java程序员来说没有太高的要求）
+	s是服务器端Server,Server端的语言很多：c，c++，java python等 我们主要是使用java语言完成服务器端的开发
 
-	B/S�ܹ���ϵͳ��ʲô��ȱ�㣿����칫ϵͳ
-		�ŵ㣺�������㣬ֻ�����������˴��뼴�ɡ�ά���ɱ���
-		ȱ�㣺�ٶ��������鲻�ã����治�ſᡣ
+	B/S架构的系统有什么优缺点？比如办公系统
+		优点：升级方便，只升级服务器端代码即可。维护成本低
+		缺点：速度慢，体验不好，界面不炫酷。
 
-		��ҵ�ڲ��Ľ����������B/S�ܹ���ϵͳ����Ϊ��ҵ�ڲ��칫��Ҫ��һЩϵͳ����Ҫ�ſᣬ����Ҫ�ر�õ��û����飬
-		ֻҪ�������ݵ���ɾ��ļ��ɡ�������ҵ�ڲ���ע��ά���ĳɱ���
+		企业内部的解决方案都是B/S架构的系统，因为企业内部办公需要的一些系统不需要炫酷，不需要特别好的用户体验，
+		只要能做数据的增删查改即可。而且企业内部更注重维护的成本。
 
-		�������Ա�...
+		京东，淘宝...
 
-	C/S�ܹ�
-		Client / Server ���ͻ���/�������˵Ľ�����ʽ�����磺ħ������
+	C/S架构
+		Client / Server （客户端/服务器端的交互形式）比如：魔兽世界
 
-		ȱ�㣺�����鷳��ά���ɱ��ϸ�
-		�ŵ㣺�ٶȿ죬����ã������ſᡣ�������͵�ϵͳ������C/S�ܹ��ģ�
+		缺点：升级麻烦，维护成本较高
+		优点：速度快，体验好，界面炫酷。（娱乐型的系统多数是C/S架构的）
 
-���⣺DreamWeaver����ֱ�ӻ���ҳ������Ҫд����
+番外：DreamWeaver可以直接画网页，不需要写代码
 
-2. ʲô��HTML?��ô����HTML����ô����HTML��
-	* HTML��Hyper Text Markup Language�����ı�������ԣ�
-		�ɴ�����ǩ��ɣ�ÿһ����ǩ���п�ʼ�ͽ�����ǩ
-		<��ǩ>
-			<��ǩ>
-				<��ǩ>
-					<��ǩ ������=������ֵ�� ������=������ֵ��>
-				</��ǩ>
-			</��ǩ>
-		</��ǩ>
+2. 什么是HTML?怎么开发HTML？怎么运行HTML？
+	* HTML：Hyper Text Markup Language（超文本标记语言）
+		由大量标签组成，每一个标签都有开始和结束标签
+		<标签>
+			<标签>
+				<标签>
+					<标签 属性名=“属性值” 属性名=“属性值”>
+				</标签>
+			</标签>
+		</标签>
 
-		���ı�����ý�壬ͼƬ����������Ƶ...
+		超文本：流媒体，图片，声音，视频...
 
-	* HTML������ʱ��ʹ����ͨ���ı��༭�����У��������ļ���չ����.html����.htm
-	HTMLҲ��ר�ŵĿ������ߣ����磺DreamWeaver,HBuilder...
+	* HTML开发的时候使用普通的文本编辑器就行，创建的文件扩展名是.html或者.htm
+	HTML也有专门的开发工具，例如：DreamWeaver,HBuilder...
 
-	* ֱ�Ӳ����������HTML�ļ���������
+	* 直接采用浏览器打开HTML文件就是运行
 
-3. HTML��˭�ƶ��ģ�
-	W3C��������ά������
-	W3Cָ����HTML�淶��ÿ��������������Ҷ������ع淶��HTML����ԱҲ�ᰴ������淶ȥд���롣
-	HTML��ߵİ汾��H5
-	��������ѧϰ����HTML4.0����Ҫ��ѧϰ�����﷨
+3. HTML是谁制定的？
+	W3C：世界万维网联盟
+	W3C指定了HTML规范，每个浏览器生产厂家都会遵守规范。HTML程序员也会按照这个规范去写代码。
+	HTML最高的版本是H5
+	我们这里学习的是HTML4.0，主要是学习基础语法
 
-	W3C�ƶ��˺ܶ�淶��
-		HTML/XML/http/httpsЭ��Protokoll
+	W3C制定了很多规范：
+		HTML/XML/http/https协议Protokoll
 	
-	Ϊ�˷����й�webǰ�˳���Ա�������ṩ�����İ����ĵ���Ϊ�����ṩ����
-	w3school:�ȳ��ֵģ���w3cû��ϵ
-	w3cschool:����ֵģ���w3cû�й�ϵ
+	为了方便中国web前端程序员开发，提供大量的帮助文档。为开发提供方便
+	w3school:先出现的，和w3c没关系
+	w3cschool:后出现的，和w3c没有关系
 
-4. <html> </html> ��ʶhtml��ͷβ
-	<head></head> ͷ
-	<body></body> ����
-	<title></title> ����
-	ע�⣺������ӱ�ǩ������Ҫ�������Ұ����㣬���Ҫ����
+4. <html> </html> 标识html的头尾
+	<head></head> 头
+	<body></body> 身体
+	<title></title> 标题
+	注意：如果是子标签，就需要缩进，我包着你，你就要缩进
 
-	��ɺ� ͷ�������Ͻǵı�ǩ����ǩ�����־���head�����title
-			����������ݵ����壬������ʾ����body��ǩ�е�����
+	完成后 头就是左上角的标签，标签的文字就是head里面的title
+			身体就是内容的主体，里面显示的是body标签中的内容
 
 
 
