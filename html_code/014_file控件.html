@@ -9,7 +9,7 @@
 		<input type="file" />
 		
 		<form action="http://localhost:8080/oa/save" method="post">
-			<!--隐藏域 hidden，表单上看不到，但是实际上表单提交数据的时候，也会将这部分提交到服务器，如果name有的话-->
+			<!--隐藏域 hidden，表单上看不到，但是实际上表单提交数据的时候，也会将这部分提交到服务器，如果name有的话，并不是为了安全，主要是不要在那里占位置-->
 			<input type="hidden" name="userid" value="111" />
 			
 			用户代码<input type="text" name="usercode" />

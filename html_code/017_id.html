@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>html中的id属性</title>
+	</head>
+	<body>
+		<!--
+			1. 在HTML文档中，任何元素都有id属性，元素也叫节点，id属性是该节点的唯一标识，所以同一个html文档中，id是唯一的
+				id就相当于每个节点的身份证，唯一识别标志
+			2. 表单提交数据的时候，只和name有关系
+			3. id的作用是什么？
+				id是让我们方便获取这个元素。后期使用js的时候，可以对html文档中的任一节点进行增删改，以达到动态的效果
+				增删改之前通常通过id来获取目标对象
+				id可以随便加，只要不重复就行
+			4. html是一颗树，树上有很多节点，比如根节点是html，他有两个节点，一个叫body，一个叫head以此类推
+				这个树我们叫DOM树=Document文档树
+				JavaScript就是主要对这个树进行增删改
+		-->
+		<form id="myform">
+			<input type="text" id="username" name="username" />
+			<input type="password" id="password" name="password" />
+		</form>
+	</body>
+</html>
